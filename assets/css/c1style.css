@@ -1,0 +1,15 @@
+h1 {
+	text-align: center; 
+	padding: 5%; 
+}
+
+p {
+	text-align: center; 
+	font-size: 30px; 
+}
+
+#answers {
+	text-align: center;
+	font-size: 30px;
+	padding: 5%; 
+}

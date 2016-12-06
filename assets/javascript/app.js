@@ -1,4 +1,9 @@
+//Prepare for take off! 
+$(document).ready(function(){
 // Create Carousel Effect to present images: jQuery -> https://designmodo.com/responsive-slider/
 
-//Load page with image click
-$("#images").on("click")
+//Create hover symbol
+$('#images').css('cursor', 'pointer');
+
+//
+}); 
