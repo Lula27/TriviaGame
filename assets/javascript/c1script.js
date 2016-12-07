@@ -52,6 +52,7 @@ function decrement() {
 	// Define end function
 	function end() {
 		clearInterval(counter); 
+		window.location.href="index.html";
 	}
 
 	// Execute run function.
@@ -61,4 +62,6 @@ function decrement() {
 });
 
 
-// Also, close out and return to main page with click of button (write/wrong). No mercy!
+// Also, close out and return to main page with click of button (write/wrong). No mercy! 
+
+ 
