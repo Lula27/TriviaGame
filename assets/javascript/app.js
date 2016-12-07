@@ -2,6 +2,7 @@
 $(document).ready(function(){
 // Create Carousel Effect to present images: jQuery -> https://designmodo.com/responsive-slider/
 
-// Create hover symbol
-$('#images').css('cursor', 'pointer');
+// Create hover symbol-unnecessary, cut out!
+// $('#images').css('cursor', 'pointer');
 
+}); 
