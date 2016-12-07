@@ -7,7 +7,7 @@
 //A: Anansi
 
 // Response for button answer selections 
-// It works but clean up this code! Waaaaay too redunant. Plus, how do I link up results here to app.js for total score tabulation?
+// How do I link up results here to app.js for total score tabulation?
 $(document).ready(function() {
 
 $('#atwo').on('click', function() {
@@ -15,27 +15,10 @@ $('#atwo').on('click', function() {
 
  }); 
 
-$('#aone').on('click', function() {
+$('#aone, #athree, #afour, #afive').on('click', function() {
 	$('#result').html('<h2> Incorrect! </h2>');
 
  }); 
-
-$('#athree').on('click', function() {
-	$('#result').html('<h2> Incorrect! </h2>');
-
- }); 
-
-$('#afour').on('click', function() {
-	$('#result').html('<h2> Incorrect! </h2>');
-
- }); 
-
-
-$('#afive').on('click', function() {
-	$('#result').html('<h2> Incorrect! </h2>');
-
- }); 
-
 
 // Automatically start 10 second timer once page loads
 // Once timer hits zero, append "Time's up!" & return to main page
@@ -48,7 +31,7 @@ console.log(number);
 
 // Set up counter so that it runs with page load
 function run() {
-	couner = setInterval(decrement, 1000); 
+	counter = setInterval(decrement, 1000); 
 }
 
 // Define decrement function
@@ -74,9 +57,6 @@ function decrement() {
 	// Execute run function.
 	run(); 
 
-	if (number === 0) {
-		end(); 
-	}
 
 });
 
