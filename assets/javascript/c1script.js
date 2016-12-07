@@ -81,3 +81,4 @@ function decrement() {
 });
 
 
+// Also, close out and return to main page with click of button (write/wrong). No mercy!
