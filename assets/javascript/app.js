@@ -5,6 +5,3 @@ $(document).ready(function(){
 // Create hover symbol
 $('#images').css('cursor', 'pointer');
 
-// Load new page with click on image -doesn't seem to be working
-$('#adichie').load("chapter1.html"); 
-}); 

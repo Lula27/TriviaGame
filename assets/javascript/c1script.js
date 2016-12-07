@@ -7,4 +7,10 @@
 //A: Anansi
 
 // Response for correct answer 
-alert("hi!"); 
+$(document).ready(function() {
+
+$('#atwo').on('click', function() {
+	$('#result').html('<h2> Correct! </h2>'); 
+
+ }); 
+});
