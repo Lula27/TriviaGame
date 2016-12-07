@@ -10,6 +10,10 @@ p {
 
 #answers {
 	text-align: center;
-	font-size: 30px;
-	padding: 5%; 
+	font-size: 30px; 
+	width: 260px;
+	margin: 20%;
+	padding: 5%;
+	margin: 0 auto; 
 }
+
