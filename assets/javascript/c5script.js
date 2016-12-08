@@ -16,6 +16,7 @@ $(document).ready(function() {
 // Create variables
 var number = 10;
 var counter;
+var extra = number + 5; 
 
 console.log(number); 
 
@@ -48,8 +49,12 @@ function decrement() {
 	// Execute run function.
 	run(); 
 
+	// Add 5 more seconds with Extra Time button
 
+	// $('#moreTime').on('click', function() {
+	// 	$('#counter').html('<h3>' + extra + '</h3>'); 
 
+	// })
 
 
 
