@@ -10,10 +10,7 @@
 // How do I link up results here to app.js for total score tabulation?
 $(document).ready(function() {
 
-$('#atwo').on('click', function() {
-	$('#result').html('<h2> Correct! </h2>');
 
- }); 
 
 $('#aone, #athree, #afour, #afive').on('click', function() {
 	$('#result').html('<h2> Incorrect! </h2>');
@@ -62,6 +59,14 @@ function decrement() {
 });
 
 
-// Also, close out and return to main page with click of button (write/wrong). No mercy! 
+// Also, close out and return to main page after 5 seconds (5*1000) with click of button (write/wrong). No mercy! 
+setTimeout(function(){
+ 	correct(); 
+ }, 3000); 
 
- 
+var correct = $('#atwo').on('click', function() {
+	$('#result').html('<h2> Correct! </h2>');
+	clearInterval(counter); 
+	window.location.href="index.html";
+
+ }); 
