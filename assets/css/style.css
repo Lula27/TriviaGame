@@ -7,6 +7,10 @@ p {
 	text-align: center; 
 }
 
+#win-lose {
+	text-align: center;
+}
+
 #images {
 	padding: 5%; 
 }

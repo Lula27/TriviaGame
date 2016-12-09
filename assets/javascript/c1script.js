@@ -46,12 +46,25 @@ function decrement() {
 	}
 
 	// Execute run function.
-	run(); 
+	// run(); 
 
 
+	// Tracking Scores
+
+	// Create variables to store score count 
+
+	var wins = 0; 
+	var losses = 0; 
 
 
+	// Response for selecting winning button
+	wins++;
+	
+	$('#atwo').on('click', function() {
+	
+		$('#wins').html(wins); 
 
+	})
 
 
  }); 
