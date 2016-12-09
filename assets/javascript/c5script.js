@@ -14,7 +14,7 @@ $(document).ready(function() {
 // Once timer hits zero, append "Time's up!" & return to main page
 
 // Create variables
-var number = 10;
+var number = 15;
 var counter;
 var extra = number + 5; 
 

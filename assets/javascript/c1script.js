@@ -1,27 +1,20 @@
-// Click button to choose answer
-// If correct, print "Correct!" on screen
-// If wrong, print "Incorrect!"
-// Point tracker: how do I connect points on various pages to app.js?
-
-//Q: Which fictional character is not a character in Chimamanda Ngozi Adichie’s "Americanah"? 
-//A: Anansi
-
-// Response for button answer selections 
-// How do I link up results here to app.js for total score tabulation?
 $(document).ready(function() {
 
+	$('#atwo').on('click', function() {
+	$('#result').html('<h2> Correct! </h2>');
 
+	})
 
-$('#aone, #athree, #afour, #afive').on('click', function() {
+	$('#aone, #athree, #afour, #afive').on('click', function() {
 	$('#result').html('<h2> Incorrect! </h2>');
+	})
 
- }); 
 
-// Automatically start 10 second timer once page loads
+	// Automatically start 10 second timer once page loads
 // Once timer hits zero, append "Time's up!" & return to main page
 
 // Create variables
-var number = 10;
+var number = 15;
 var counter;
 
 console.log(number); 
@@ -56,17 +49,9 @@ function decrement() {
 	run(); 
 
 
-});
 
 
-// Also, close out and return to main page after 5 seconds (5*1000) with click of button (write/wrong). No mercy! 
-setTimeout(function(){
- 	correct(); 
- }, 3000); 
 
-var correct = $('#atwo').on('click', function() {
-	$('#result').html('<h2> Correct! </h2>');
-	clearInterval(counter); 
-	window.location.href="index.html";
+
 
  }); 
