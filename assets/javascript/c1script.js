@@ -51,38 +51,6 @@ function decrement() {
 	 // run(); 
 
 
-	// Tracking Scores
-
-	// Create variables to store score count 
-
 	
-	// var losses = 0; 
-	var wins = 0; 
-
-
-	// Response for selecting winning button
-	// Run winning function with click of winning button 
- function winning () {
-
-	wins++;
-	
-		$('#wins').html(wins); 
-	
-	}
-
-	$('#atwo').on('click', winning); 
-
-	// Response for selecting losing button
-
-	// losses++;
-	
-	// $('#aone, #athree, #afour, #afive').on('click', function() {
-	
-	// 	$('#losses').html(losses); 
-
-	// })
-
-console.log(winning); 
-console.log(decrement); 
 
  }); 

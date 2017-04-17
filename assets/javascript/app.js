@@ -10,21 +10,6 @@ $(document).ready(function(){
 
 // Tracking Scores-run functions for win count here! 
 
-// Create Variables for wins/losses 
-	var wins = 0; 
-
-
-function winning () {
-
-	wins++;
-	
-		$('#wins').html(wins); 
-	
-	}
-
-// Run win count 
-winning();
-
 
 
 
